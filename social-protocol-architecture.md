@@ -6,21 +6,22 @@ The diagrams  reflect the current state but may also change at a later point in 
 
 Please note that further technical details on the individual components, the security concept, and the data protection concept are provided at a later date.
 
-We assume a close association of a crypto-wallet and its user, thus, equate the wallet (phone, app) and the person using it (person, user, individual) and use these terms interchangeably.
-
 ![Famed protocol Components](images/solution_architecture/Components.png "Famed protocol Components")
 
 ## TABLE OF CONTENTS
 
 1. [INTRODUCTION](#introduction)
-2. [GITHUB APP](#Github-app)
-3. [WALL OF FAME BOARDS](#wall-of-fame-boards)
-4. [TOKENIZATION LAYER-2](#tokenization-layer-2)
-5. [RUNTIME ENVIRONMENT (HOSTING)](#runtime-environment-hosting)
+2. [ACCOUNTS](#accounts)
+3. [RESPONSIBLE DISCLOSURE CHANNELS](#responsible-disclosure-channels)
+   1. [Wep DApp](#web-dapp)
+   2. [Messengers ](#messengers)  
+5. [GITHUB APP](#github-app)
+6. [WALL OF FAME BOARDS](#wall-of-fame-boards)
+7. [TOKENIZATION LAYER-2](#tokenization-layer-2)
+8. [RUNTIME ENVIRONMENT (HOSTING)](#runtime-environment-hosting)
    1. [Bandwidth estimations](#bandwidth-estimations)
-5. [CROSS-DAO INTEROPERABILITY](#cross-dao-interoperability)
-6. [LIMITATIONS](#limitations)
-7. [PRIVACY-PRESERVING DATA DONATION](#privacy-preserving-data-donation)
+9. [CROSS-DAO INTEROPERABILITY](#cross-dao-interoperability)
+10. [LIMITATIONS](#limitations)
 
 ## INTRODUCTION
 
@@ -39,6 +40,15 @@ Some [wip] design goals of the famed are:
 
 | **Figure 1: High-level architecture overview**|
 
+## ACCOUNTS
+
+We assume a close association of a crypto-wallet and its user, thus, equate the wallet (phone, app) and the person using it (person, user, individual) and use these terms interchangeably.
+
+## RESPONSIBLE DISCLOSURE CHANNELS
+
+### Wep DApp
+
+### Messengers 
 
 ## GITHUB APP
 
