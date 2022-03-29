@@ -1,2 +1,2 @@
-# famed-architecture-
+# famed-architecture
 Architecture, Specification and Documentation of famed 
