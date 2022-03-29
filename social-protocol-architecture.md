@@ -44,6 +44,9 @@ Some [wip] design goals of the famed are:
 
 We assume a close association of a crypto-wallet and its user, thus, equate the wallet (phone, app) and the person using it (person, user, individual) and use these terms interchangeably.
 
+<!--  Loopring: Metamask, Wallet connect -->
+
+
 ## RESPONSIBLE DISCLOSURE CHANNELS
 
 ### Wep DApp
@@ -57,6 +60,8 @@ We assume a close association of a crypto-wallet and its user, thus, equate the 
 | **Figure 7: Actors in the system, including external parties **|
 
 ## TOKENIZATION LAYER-2
+
+<!--  Loopring -->
 
 ## WALL OF FAME BOARDS
 
