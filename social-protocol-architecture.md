@@ -63,6 +63,8 @@ We assume a close association of a crypto-wallet and its user, thus, equate the 
 
 <!--  Loopring -->
 
+## INCENTIVES AND REWARDS
+
 ## WALL OF FAME BOARDS
 
 The Famed boards allow security efforts by an organization, teams and individual contributors to be visualized, publicly recognized and incentivized as a CVE based score. The board aggregates findings together with vulnerability data aggregated external sources (vuluntary reports, bug bounty programs and audits). 
