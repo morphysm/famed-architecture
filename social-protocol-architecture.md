@@ -17,7 +17,7 @@ Please note that further technical details on the individual components, the sec
    2. [Messengers ](#messengers)  
 5. [GITHUB APP](#github-app)
 6. [WALL OF FAME BOARDS](#wall-of-fame-boards)
-7. [TOKENIZATION LAYER-2](#tokenization-layer-2)
+7. [LAYER 2](#layer-2)
 8. [INCENTIVES AND REWARDS](#incentives-and-rewards)
 9. [RUNTIME ENVIRONMENT (HOSTING)](#runtime-environment-hosting)
    1. [Bandwidth estimations](#bandwidth-estimations)
@@ -60,9 +60,12 @@ We assume a close association of a crypto-wallet and its user, thus, equate the 
 |:--:|
 | **Figure 7: Actors in the system, including external parties **|
 
-## TOKENIZATION LAYER-2
+## LAYER 2 
 
 <!--  Loopring -->
+<!--  zksync -->
+<!--  optimism -->
+
 
 ## INCENTIVES AND REWARDS
 
@@ -85,4 +88,8 @@ The functional scope of the famed board applications is defined in the correspon
 ## CROSS DAO INTEROPERABILITY
 
 ## LIMITATIONS
+
+<!--  FAMED TOKEN MODEL -->
+
+ 
 
