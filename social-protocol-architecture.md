@@ -18,10 +18,11 @@ Please note that further technical details on the individual components, the sec
 5. [GITHUB APP](#github-app)
 6. [WALL OF FAME BOARDS](#wall-of-fame-boards)
 7. [TOKENIZATION LAYER-2](#tokenization-layer-2)
-8. [RUNTIME ENVIRONMENT (HOSTING)](#runtime-environment-hosting)
+8. [INCENTIVES AND REWARDS](#incentives-and-rewards)
+9. [RUNTIME ENVIRONMENT (HOSTING)](#runtime-environment-hosting)
    1. [Bandwidth estimations](#bandwidth-estimations)
-9. [CROSS-DAO INTEROPERABILITY](#cross-dao-interoperability)
-10. [LIMITATIONS](#limitations)
+10. [CROSS-DAO INTEROPERABILITY](#cross-dao-interoperability)
+11. [LIMITATIONS](#limitations)
 
 ## INTRODUCTION
 
