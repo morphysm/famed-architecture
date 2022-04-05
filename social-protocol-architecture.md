@@ -16,9 +16,9 @@ Please note that further technical details on the individual components, the sec
    1. [Wep DApp](#web-dapp)
    2. [Messengers ](#messengers)  
 5. [GITHUB APP](#github-app)
-6. [WALL OF FAME BOARDS](#wall-of-fame-boards)
-7. [LAYER 2](#layer-2)
-8. [INCENTIVES AND REWARDS](#incentives-and-rewards)
+6. [LAYER 2](#layer-2)
+7. [INCENTIVES AND REWARDS](#incentives-and-rewards)
+8. [WALL OF FAME BOARDS](#wall-of-fame-boards)
 9. [RUNTIME ENVIRONMENT (HOSTING)](#runtime-environment-hosting)
    1. [Bandwidth estimations](#bandwidth-estimations)
 10. [CROSS-DAO INTEROPERABILITY](#cross-dao-interoperability)
@@ -26,7 +26,7 @@ Please note that further technical details on the individual components, the sec
 
 ## INTRODUCTION
 
-This document describes an overview of famed, a decentralised social protocol for vulnerability coordination, bug bounties, responsible disclosure and governance for everyone involved in the life cycle of vulnerabilities. Famed aims to research&develop incentives for balanced defaults for tradeoffs for the objectives of product, security and development teams in a DAO.
+This document describes an overview of famed, a decentralised social protocol for vulnerability coordination, bug bounties, responsible disclosure and governance for everyone involved in the life cycle of vulnerabilities. Famed aims to research&develop incentives for balanced defaults for tradeoffs between the objectives of product, security and development teams in a DAO.
 
 
 Some [wip] design goals of the famed are:
@@ -46,11 +46,11 @@ Some [wip] design goals of the famed are:
 We assume a close association of a crypto-wallet and its user, thus, equate the wallet (phone, app) and the person using it (person, user, individual) and use these terms interchangeably.
 
 <!--  Loopring: Metamask, Wallet connect -->
-
+<!-- consider ArgentX? -->
 
 ## RESPONSIBLE DISCLOSURE CHANNELS
 
-### Wep DApp
+### Web DApp
 
 ### Messengers 
 
@@ -62,6 +62,7 @@ We assume a close association of a crypto-wallet and its user, thus, equate the 
 
 ## LAYER 2 
 
+For payouts of bug bounties and other rewards, Famed builds on ZK-Rollups (ZK-Snarks such as Loopring, zkSync and ZK-Starks such as DeversiFi) to reduce costs via the scalability advantage and to enable privacy-preserving transactions.
 <!--  Loopring -->
 <!--  zksync -->
 <!--  optimism -->
