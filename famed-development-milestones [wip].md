@@ -11,29 +11,29 @@ Please note that further technical details on the individual components, the sec
 ## 0: Systems analysis, requirements definition and design (03/21 - 09/21)
 ## I: System development (09/21 - 09/22)
 
-### dApp protototype components (09/21 - 06/22)
+### a) dApp protototype components (09/21 - 06/22)
 
-  #### i)  “Walls of fame” Web App + Github/Web (09/21 - 03/22) (✅)
+   #### i)  “Walls of fame” Web App + Github/Web (09/21 - 03/22) (✅)
+    
+   > * Github App:  https://github.com/morphysm/famed-github-backend (02/22 - 03/22) (✅)
+   > * Wall of fame:  https://www.famed.morphysm.com/teams/morphysm/famed-script-test-dev (01/22 - 03/22) (✅)
+
+   #### ii) Migration tool (from Hackerone, Bugcrowd, etc.) (03/22) (✅)
   
-    - Github App:  https://github.com/morphysm/famed-github-backend (02/22 - 03/22) (✅)
-    - Wall of fame:  https://www.famed.morphysm.com/teams/morphysm/famed-script-test-dev (01/22 - 03/22) (✅)
+   > - CSV to github famed issues https://github.com/morphysm/famed-import-script 
 
-  #### ii) Migration tool (from Hackerone, Bugcrowd, etc.) (03/22) (✅)
-  
-     - CSV to github famed issues https://github.com/morphysm/famed-import-script 
+   #### iii) Github App Memory Encryption + ASLR (03/22 - 06/22) 
 
-  #### iii) Github App Memory Encryption + ASLR (03/22 - 06/22) 
+   #### iv) Security Audit + codebase hardening (06/22 - 09/22) 
 
-  #### iv) Security Audit + codebase hardening (06/22 - 09/22) 
-
-### Web dApp (5/22 - 8/22)
+### b) Web dApp (5/22 - 8/22)
 
   #### i) Login with Wallet connect/metamask + Github to lower spam (5/22- 7/22)
-    - config option to require tokens in user's wallet to submit bugs 
+   - config option to require tokens in user's wallet to submit bugs 
 
   #### ii) Bug submission form: fat client implementation with e2e encryption (5/22- 7/22)
-  - requires a side channel to securely verify the organization's public key 
-  - See, for instance EF's current bug submission form: https://forms.gle/Gnh4gzGh66Yc3V7G8
+   - requires a side channel to securely verify the organization's public key 
+   - See, for instance EF's current bug submission form: https://forms.gle/Gnh4gzGh66Yc3V7G8
   
   #### iii) Decentralized, privacy preserving bounties** - zero knowledge commits/claims (5/22 - 8/22)
 
@@ -45,7 +45,7 @@ Please note that further technical details on the individual components, the sec
   
   Claiming tokens in this manner mixes them with all other contributors, protecting their anonymity.
 
-  ##### iv) Interface for projects to customize Github App** with NFT badges/rewards (7/22 - 9/22)
+  #### iv) Interface for projects to customize Github App** with NFT badges/rewards (7/22 - 9/22)
 
 ### To be specified: 
 ##### II: Famed Protocol Handbook (7/22 - 9/22)
