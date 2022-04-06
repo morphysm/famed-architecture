@@ -46,7 +46,8 @@ Some [wip] design goals of the famed are:
 We assume a close association of a crypto-wallet and its user, thus, equate the wallet (phone, app) and the person using it (person, user, individual) and use these terms interchangeably.
 
 <!--  Loopring: Metamask, Wallet connect -->
-<!-- consider ArgentX? -->
+<!-- Loopring: https://docs.loopring.io/en/basics/key_mgmt.html -->
+
 
 ## RESPONSIBLE DISCLOSURE CHANNELS
 
