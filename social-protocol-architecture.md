@@ -63,7 +63,12 @@ We assume a close association of a crypto-wallet and its user, thus, equate the 
 
 ## LAYER 2 
 
-For payouts of bug bounties and other rewards, Famed builds on ZK-Rollups (ZK-Snarks such as Loopring, zkSync and ZK-Starks such as DeversiFi) to reduce costs via the scalability advantage and to enable privacy-preserving transactions.
+Famed pays out bug bounties and other rewards through ZK-Rollups (ZK-Snarks such as Loopring, zkSync and ZK-Starks such as DeversiFi). This ensures
+- high privacy through zero-knowledge
+- low fees and fast payouts via the scalability advantage of rollups
+
+Here, the ZK-Rollup build by ZkSync offers an EVM-compatible solution that allows high flexibility around the use of other tokens as well as the future integrations of a Famed token. 
+
 <!--  Loopring -->
 <!--  zksync -->
 <!--  optimism -->
