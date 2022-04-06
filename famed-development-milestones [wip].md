@@ -15,12 +15,12 @@ Please note that further technical details on the individual components, the sec
 
    #### i)  “Walls of fame” Web App + Github/Web (09/21 - 03/22) (✅)
     
-   > * Github App:  https://github.com/morphysm/famed-github-backend (02/22 - 03/22) (✅)
-   > * Wall of fame:  https://www.famed.morphysm.com/teams/morphysm/famed-script-test-dev (01/22 - 03/22) (✅)
+   * Github App:  https://github.com/morphysm/famed-github-backend (02/22 - 03/22) (✅)
+   * Wall of fame:  https://www.famed.morphysm.com/teams/morphysm/famed-script-test-dev (01/22 - 03/22) (✅)
 
    #### ii) Migration tool (from Hackerone, Bugcrowd, etc.) (03/22) (✅)
   
-   > - CSV to github famed issues https://github.com/morphysm/famed-import-script 
+   * CSV to github famed issues https://github.com/morphysm/famed-import-script 
 
    #### iii) Github App Memory Encryption + ASLR (03/22 - 06/22) 
 
