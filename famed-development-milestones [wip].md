@@ -18,10 +18,10 @@ Please note that further technical details on the individual components, the sec
     		- Data at rest: databaseless, static, fat client dApp 
     	3. Example Wall of fame:  https://www.famed.morphysm.com/teams/morphysm/famed-script-test-dev (01/22 - 03/22) 
 
-   2. Migration script (from Hackerone, Bugcrowd, etc.) (03/22)
+   2. **Issue migration script** (from Hackerone, Bugcrowd, etc.) (03/22)
 	1. e.g. CSV to github famed issues https://github.com/morphysm/famed-import-script
-   4. Github App Memory Encryption + ASLR (05/22 - 09/22) 
-   5. Security Audit + codebase hardening (08/22 - 09/22) 
+   4. **Github App Memory Encryption** + ASLR (05/22 - 09/22) 
+   5. **Security Audit** + codebase hardening (08/22 - 09/22) 
 
 ### B) Web dApp (5/22 - 9/22)
 1. **Login with Wallet connect/metamask** + Github to lower spam (5/22- 8/22)
@@ -39,8 +39,6 @@ Please note that further technical details on the individual components, the sec
   2. contributors can send commitments over a public channel (their address remains private) 
   3. commitments can be submitted to a contract storing a merkle tree of all commitments. 
   4. Later contributors can claim their portion NFTs/bounties by providing a zero-knowledge proof that they belong in the Merkle tree. 
-  
- 
 
 4. **NFT badges/rewards**: Customization interface for Github App  (7/22 - 9/22)
  
@@ -56,7 +54,6 @@ Sourcing and onboarding of security champions
 - payout rewards 
 
 ## IV: System Improvements & Maintenance (01/22 - 02/23)
-
 
 ## V: System Evaluation: (01/22 - 03/23)
 
