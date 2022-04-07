@@ -11,87 +11,69 @@ Please note that further technical details on the individual components, the sec
 ## 0: Systems analysis, requirements definition and design (03/21 - 09/21)
 ## I: System development (09/21 - 09/22)
 
-### a) dApp protototype components (09/21 - 06/22)
+### A) dApp protototype components (09/21 - 06/22)
 
-   - i)  “Walls of fame” Web App + Github/Web (09/21 - 03/22) 
-    	- Github App:  https://github.com/morphysm/famed-github-backend (02/22 - 03/22
-    	- Wall of fame:  https://www.famed.morphysm.com/teams/morphysm/famed-script-test-dev (01/22 - 03/22) 
-    	- Feature equivalent to https://ethereum.org/en/eth2/get-involved/bug-bounty/#leaderboard 
-    	- No Automation/Integration of Github, NFts… 
+   1. **“Walls of fame”** Web App + Github/Web (09/21 - 03/22) 
+    	1. Github App developer driven triage tool:  https://github.com/morphysm/famed-github-backend (02/22 - 03/22
+    		- Data at rest: databaseless, static, fat client dApp 
+    	3. Example Wall of fame:  https://www.famed.morphysm.com/teams/morphysm/famed-script-test-dev (01/22 - 03/22) 
 
+   2. Migration script (from Hackerone, Bugcrowd, etc.) (03/22)
+	1. e.g. CSV to github famed issues https://github.com/morphysm/famed-import-script
+   4. Github App Memory Encryption + ASLR (05/22 - 09/22) 
+   5. Security Audit + codebase hardening (08/22 - 09/22) 
 
-   - ii) Migration tool (from Hackerone, Bugcrowd, etc.) (03/22) 
-   	- CSV to github famed issues https://github.com/morphysm/famed-import-script 
+### B) Web dApp (5/22 - 9/22)
+1. **Login with Wallet connect/metamask** + Github to lower spam (5/22- 8/22)
+	1. config option to require tokens in user's wallet to submit bugs 
+2. **Conversational vulnerability submission form**: fat client implementation  (5/22- 8/22)
+	1. supports databaseless operation: Ephemereal Triage to Messenger + Github 	
+		1. Data at rest: databaseless, static, fat client dApp 
+		2. Data ins transit: TLS + e2e encrypted, organization's public key is retrieved from ENS 
+		3. Data in use, memory encryption, see A.3
+3.  **Decentralized, privacy preserving bounties - zero knowledge commits/claims** (5/22 - 8/22)
 
-   ### iii) Github App Memory Encryption + ASLR (03/22 - 06/22) 
-
-   ### iv) Security Audit + codebase hardening (06/22 - 09/22) 
-
-### b) Web dApp (5/22 - 8/22)
-
-  ### i) Login with Wallet connect/metamask + Github to lower spam (5/22- 7/22)
-   - config option to require tokens in user's wallet to submit bugs 
-
-  ### ii) Bug submission form: fat client implementation with e2e encryption (5/22- 7/22)
-   - requires a side channel to securely verify the organization's public key 
-   - See, for instance EF's current bug submission form: https://forms.gle/Gnh4gzGh66Yc3V7G8
+- - Many users would prefer not to disclose their public keys. Claiming tokens in this manner mixes them with all other contributors, protecting their anonymity: 
   
-  ### iii) Decentralized, privacy preserving bounties** - zero knowledge commits/claims (5/22 - 8/22)
-
-  Instead of requesting addresses for bounties over a public or private channel, many users would prefer not to disclose their public keys. The following components will adress this problem: 
-  - deploy an interface where contributors can generate a message ('commitment') 
-  - contributors can send commitments over a public channel (their address remains private) 
-  - commitments can be submitted to a contract storing a merkle tree of all commitments. 
-  - Later contributors can claim their portion NFTs/bounties by providing a zero-knowledge proof that they belong in the Merkle tree. 
+  1. deploy an interface where contributors can generate a message ('commitment') 
+  2. contributors can send commitments over a public channel (their address remains private) 
+  3. commitments can be submitted to a contract storing a merkle tree of all commitments. 
+  4. Later contributors can claim their portion NFTs/bounties by providing a zero-knowledge proof that they belong in the Merkle tree. 
   
-  Claiming tokens in this manner mixes them with all other contributors, protecting their anonymity.
+ 
 
-  ### iv) Interface for projects to customize Github App** with NFT badges/rewards (7/22 - 9/22)
+4. **NFT badges/rewards**: Customization interface for Github App  (7/22 - 9/22)
+ 
+## II: Famed Protocol Handbook (7/22 - 9/22)
+- Documentation of the Famed social protocol
+- Reward specification 
+- Step by Step guide for the respective roles  
 
-### To be specified: 
-##### II: Famed Protocol Handbook (7/22 - 9/22)
-- Documentation of the Kudos process
-       * introduction to purple teaming methodology 
-       * Github Readme/Documentation in .md, later use https://github.com/rust-lang/mdBook 
-- Step by Step guide for the respective roles including responsibilities, 
-
-##### III: Continuous System Integration and testing, System Acceptance, installation, deployment (04/22 - 12/22)
+## III: Continuous System Integration and testing, System Acceptance, installation, deployment (06/22 - 12/22)
 Sourcing and onboarding of security champions 
-- complete initial vulnerability lifecycles 
-- payout initial rewards 
+- Facilitate complete vulnerability lifecycles 
+- Some components might not be finalized and need to replaced with traditional stack (e.g. Email/Messenger, manual NFT deployment)
+- payout rewards 
 
-##### IV: System Improvements & Maintenance (04/22 - 12/22)
-##### VI: System Improvements & Maintenance (01/22 - 02/23)
-
-
-## V: System Evaluation: (03/22 - 02/23)
-    - “The Motherboard” Metrics/Analytics Dashboard, to compare security work among teams/projects (03/22 - 07/22)
-    
-
-## VII: System Scaling: Automate all the things (9/22 - 02/23)
-Multichannel conversational Triage automator 9/22 - 02/23
+## IV: System Improvements & Maintenance (01/22 - 02/23)
 
 
-Ships as part of the Github App which organizations can selfhost , One App per Organization/Repoe 
-- decentralized Report submissions
-	
-Chatbot Plugin for different messengers with local; self contained, containerized AI 
+## V: System Evaluation: (01/22 - 03/23)
 
-Form from Web Interface as a messenger conversation for reports submitted as: 
+## VI: System Scaling: Automate all the things (9/22 - 02/23)
+1. Multichannel conversational Triage automator (9/22 - 02/23)
 
-Email
-Telegram
-Status.im
-Discord
+- Ships as part of the Github App which organizations can selfhost on their exisiting channels for decentralized Report submissions
 
+2. Chatbot Plugin for different messengers with local; self contained, containerized AI 
+Messenger in scope are: 
+- Email (gpg encrypted)
+- Status messenger 
+- Telegram
+- Discord
+- Slack 
 
-## VIII: System Scaling: 
+## VII: System Scaling: 
 
-### Famed reward layer2  dApp on 2023
-
-**Currently evaluating: Zksync, Loopring, Optimism** 
-
-### Famed as a Status Community 2023
-
-
-
+1. Famed reward layer2  dApp in 2023
+2. Famed as a Status Community 2023
