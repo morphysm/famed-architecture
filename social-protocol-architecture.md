@@ -73,8 +73,8 @@ Bug bounty programs set incentives for hackers to hunt and disclose bugs by rewa
 Organizations that use a Famed board can integrate several further incentive schemes to promote security work beyond the red team. We are currently thinking of the following extensions:
 
 - Promote referral among red teamers
-- Reward blue teamers for fast and clean fixes of reported vulnerabilities
-- Reward security champs for guaranting fast and clean fixes of reported vulnerabilities
+- Reward security developers for fast and clean fixes of reported vulnerabilities
+- Reward security liasons for guaranting fast and clean fixes of reported vulnerabilities
 - Increase cooperation within teams via peer pressure mechanisms
 
 Each incentive scheme is designed with the overall goal to minimize time to mitigation. For examples, metrics include time to disclosure, number of backtests or performance of co-workers. Rewards can be in the form of monetary compensation or in the form of NFTs batches.
