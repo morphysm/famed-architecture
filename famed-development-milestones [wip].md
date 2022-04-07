@@ -1,4 +1,4 @@
-## Famed Development Roadmap 
+# Famed Development Roadmap 22´
 
 
 This document is intended for a non-technical audience. It represents the most **recent state of the development roadmap and is still subject to change** as external dependencies are also still changing.
@@ -13,29 +13,30 @@ Please note that further technical details on the individual components, the sec
 
 ### a) dApp protototype components (09/21 - 06/22)
 
-   #### i)  “Walls of fame” Web App + Github/Web (09/21 - 03/22) (✅)
-    
-   * Github App:  https://github.com/morphysm/famed-github-backend (02/22 - 03/22) (✅)
-   * Wall of fame:  https://www.famed.morphysm.com/teams/morphysm/famed-script-test-dev (01/22 - 03/22) (✅)
+   - i)  “Walls of fame” Web App + Github/Web (09/21 - 03/22) 
+    	- Github App:  https://github.com/morphysm/famed-github-backend (02/22 - 03/22
+    	- Wall of fame:  https://www.famed.morphysm.com/teams/morphysm/famed-script-test-dev (01/22 - 03/22) 
+    	- Feature equivalent to https://ethereum.org/en/eth2/get-involved/bug-bounty/#leaderboard 
+    	- No Automation/Integration of Github, NFts… 
 
-   #### ii) Migration tool (from Hackerone, Bugcrowd, etc.) (03/22) (✅)
-  
-   * CSV to github famed issues https://github.com/morphysm/famed-import-script 
 
-   #### iii) Github App Memory Encryption + ASLR (03/22 - 06/22) 
+   - ii) Migration tool (from Hackerone, Bugcrowd, etc.) (03/22) 
+   	- CSV to github famed issues https://github.com/morphysm/famed-import-script 
 
-   #### iv) Security Audit + codebase hardening (06/22 - 09/22) 
+   ### iii) Github App Memory Encryption + ASLR (03/22 - 06/22) 
+
+   ### iv) Security Audit + codebase hardening (06/22 - 09/22) 
 
 ### b) Web dApp (5/22 - 8/22)
 
-  #### i) Login with Wallet connect/metamask + Github to lower spam (5/22- 7/22)
+  ### i) Login with Wallet connect/metamask + Github to lower spam (5/22- 7/22)
    - config option to require tokens in user's wallet to submit bugs 
 
-  #### ii) Bug submission form: fat client implementation with e2e encryption (5/22- 7/22)
+  ### ii) Bug submission form: fat client implementation with e2e encryption (5/22- 7/22)
    - requires a side channel to securely verify the organization's public key 
    - See, for instance EF's current bug submission form: https://forms.gle/Gnh4gzGh66Yc3V7G8
   
-  #### iii) Decentralized, privacy preserving bounties** - zero knowledge commits/claims (5/22 - 8/22)
+  ### iii) Decentralized, privacy preserving bounties** - zero knowledge commits/claims (5/22 - 8/22)
 
   Instead of requesting addresses for bounties over a public or private channel, many users would prefer not to disclose their public keys. The following components will adress this problem: 
   - deploy an interface where contributors can generate a message ('commitment') 
@@ -45,13 +46,22 @@ Please note that further technical details on the individual components, the sec
   
   Claiming tokens in this manner mixes them with all other contributors, protecting their anonymity.
 
-  #### iv) Interface for projects to customize Github App** with NFT badges/rewards (7/22 - 9/22)
+  ### iv) Interface for projects to customize Github App** with NFT badges/rewards (7/22 - 9/22)
 
 ### To be specified: 
 ##### II: Famed Protocol Handbook (7/22 - 9/22)
+- Documentation of the Kudos process
+       * introduction to purple teaming methodology 
+       * Github Readme/Documentation in .md, later use https://github.com/rust-lang/mdBook 
+- Step by Step guide for the respective roles including responsibilities, 
+
 ##### III: Continuous System Integration and testing, System Acceptance, installation, deployment (04/22 - 12/22)
+Sourcing and onboarding of security champions 
+- complete initial vulnerability lifecycles 
+- payout initial rewards 
+
 ##### IV: System Improvements & Maintenance (04/22 - 12/22)
-#### VI: System Improvements & Maintenance (01/22 - 02/23)
+##### VI: System Improvements & Maintenance (01/22 - 02/23)
 
 
 ## V: System Evaluation: (03/22 - 02/23)
