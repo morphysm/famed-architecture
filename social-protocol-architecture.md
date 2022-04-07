@@ -15,14 +15,14 @@ Please note that further technical details on the individual components, the sec
 3. [RESPONSIBLE DISCLOSURE CHANNELS](#responsible-disclosure-channels)
    1. [Wep DApp](#web-dapp)
    2. [Messengers ](#messengers)  
-5. [GITHUB APP](#github-app)
+4. [GITHUB APP](#github-app)
+5. [INCENTIVES AND REWARDS](#incentives-and-rewards)
 6. [LAYER 2](#layer-2)
-7. [INCENTIVES AND REWARDS](#incentives-and-rewards)
-8. [WALL OF FAME BOARDS](#wall-of-fame-boards)
-9. [RUNTIME ENVIRONMENT (HOSTING)](#runtime-environment-hosting)
+7. [WALL OF FAME BOARDS](#wall-of-fame-boards)
+8. [RUNTIME ENVIRONMENT (HOSTING)](#runtime-environment-hosting)
    1. [Bandwidth estimations](#bandwidth-estimations)
-10. [CROSS-DAO INTEROPERABILITY](#cross-dao-interoperability)
-11. [LIMITATIONS](#limitations)
+9. [CROSS-DAO INTEROPERABILITY](#cross-dao-interoperability)
+10. [LIMITATIONS](#limitations)
 
 ## INTRODUCTION
 
@@ -80,7 +80,7 @@ Organizations that use a Famed board can integrate several further incentive sch
 Each incentive scheme is designed with the overall goal to minimize time to mitigation. For examples, metrics include time to disclosure, number of backtests or performance of co-workers. Rewards can be in the form of monetary compensation or in the form of NFTs batches.
 
 
-### Layer 2 
+## LAYER 2 
 
 Famed pays out bug bounties and other rewards through ZK-Rollups (ZK-Snarks such as Loopring, zkSync and ZK-Starks such as DeversiFi). This ensures
 - high privacy through zero-knowledge
