@@ -61,7 +61,26 @@ We assume a close association of a crypto-wallet and its user, thus, equate the 
 |:--:|
 | **Figure 7: Actors in the system, including external parties **|
 
-## LAYER 2 
+
+## INCENTIVES AND REWARDS
+
+### Rewards
+Bug bounties paid out by organizations using the Famed boards can be directly processed via Famed. Here, we especially care about a secure and privacy-preserving channel. (See Layer 2)
+
+
+### Incentives
+Bug bounty programs set incentives for hackers to hunt and disclose bugs by rewarding them with compensation. Leaderboards add a reward of recognition.
+Organizations that use a Famed board can integrate several further incentive schemes to promote security work beyond the red team. We are currently thinking of the following extensions:
+
+- Promote referral among red teamers
+- Reward blue teamers for fast and clean fixes of reported vulnerabilities
+- Reward security champs for guaranting fast and clean fixes of reported vulnerabilities
+- Increase cooperation within teams via peer pressure mechanisms
+
+Each incentive scheme is designed with the overall goal to minimize time to mitigation. For examples, metrics include time to disclosure, number of backtests or performance of co-workers. Rewards can be in the form of monetary compensation or in the form of NFTs batches.
+
+
+### Layer 2 
 
 Famed pays out bug bounties and other rewards through ZK-Rollups (ZK-Snarks such as Loopring, zkSync and ZK-Starks such as DeversiFi). This ensures
 - high privacy through zero-knowledge
@@ -73,8 +92,6 @@ Here, the ZK-Rollup build by ZkSync offers an EVM-compatible solution that allow
 <!--  zksync -->
 <!--  optimism -->
 
-
-## INCENTIVES AND REWARDS
 
 ## WALL OF FAME BOARDS
 
