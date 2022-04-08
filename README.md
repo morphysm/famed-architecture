@@ -59,6 +59,7 @@ The functional scope of the famed board applications is defined in the correspon
 ## GITHUB APP
 
 ### Famed GitHub App
+The GitHub app faciliates developer driven triage of vulnerability reports in private or public GitHub repositories. 
 If the GitHub App is installed in a Repo with Issue/Pull Request and Webhook permissions, GitHub sends an Event to the Famed BFF using the registered Webhook each time a Issue is changes. The Famed BFF filters the events for changes which are relevant. If a relevant change occures a new Comment is posted or a current comment is updated via the GitHub API.
 
 ### Wall of Fame Data Flow
