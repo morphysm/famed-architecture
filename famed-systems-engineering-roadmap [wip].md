@@ -33,7 +33,7 @@ Please note that further technical details on the individual components, the sec
 		3. Data in use, memory encryption, see A.3
 3.  **Decentralized, Privacy Preserving Bounties - Zero Knowledge Commits/Claims** (5/22 - 8/22)
 
-- - Many users would prefer not to disclose their public keys. Claiming tokens in this manner mixes them with all other contributors, protecting their anonymity: 
+- Many users would prefer not to disclose their public keys. Claiming tokens in this manner mixes them with all other contributors, protecting their anonymity: 
   
   1. Deploy an interface where contributors can generate a message ('commitment') 
   2. Contributors can send commitments over a public channel (their address remains private) 
@@ -51,7 +51,7 @@ Please note that further technical details on the individual components, the sec
 Sourcing and onboarding of security champions 
 - Facilitate complete vulnerability lifecycles 
 - Some components might not be finalized and need to replaced with traditional stack (e.g. email/messenger, manual NFT deployment)
-- payout rewards 
+- Payout rewards 
 
 ## IV: System Improvements & Maintenance (01/22 - 02/23)
 
