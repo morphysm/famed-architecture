@@ -13,11 +13,10 @@ Please note that further technical details on the individual components, the sec
 
 ### A) dApp Protototype Components (09/21 - 06/22)
 
-   1. **“Walls of Fame”** Web App + GitHub/Web (09/21 - 03/22) 
-    	1. GitHub App developer driven triage tool:  https://github.com/morphysm/famed-github-backend (02/22 - 03/22
+   1. **“Walls of Fame”** Web App + GitHub App (09/21 - 03/22) 
+    	1. GitHub App: Developer driven triage tool:  https://github.com/morphysm/famed-github-backend (02/22 - 03/22)
     		- Data at rest: databaseless, static, fat client dApp 
     	3. Example "Wall of Fame":  https://www.famed.morphysm.com/teams/morphysm/famed-script-test-dev (01/22 - 03/22) 
-
    2. **Issue Migration Script** (from Hackerone, Bugcrowd, etc.) (03/22)
 	1. e.g. CSV to GitHub famed issues https://github.com/morphysm/famed-import-script
    4. **GitHub App Memory Encryption** + ASLR (05/22 - 09/22) 
@@ -26,8 +25,8 @@ Please note that further technical details on the individual components, the sec
 ### B) Web dApp (5/22 - 9/22)
 1. **Login with WalletConnect/Metamask** + GitHub to lower spam (5/22- 8/22)
 	1. Config option to require tokens in user's wallet to submit bugs 
-2. **Conversational Vulnerability Submission Form**: fat client implementation  (5/22- 8/22)
-	1. Supports databaseless operation: Ephemereal Triage to Messenger + GitHub 	
+2. **Conversational Vulnerability Submission Form**: fat client implementation (5/22- 8/22)
+	1. Supports databaseless operation: Ephemereal triage to messenger + GitHub 	
 		1. Data at rest: databaseless, static, fat client dApp 
 		2. Data ins transit: TLS + e2e encrypted, organization's public key is retrieved from ENS 
 		3. Data in use, memory encryption, see A.3
