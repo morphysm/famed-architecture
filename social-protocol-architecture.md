@@ -12,13 +12,13 @@ Please note that further technical details on the individual components, the sec
 
 1. [INTRODUCTION](#introduction)
 2. [ACCOUNTS](#accounts)
-3. [RESPONSIBLE DISCLOSURE CHANNELS](#responsible-disclosure-channels)
+3. [WALL OF FAME BOARDS](#wall-of-fame-boards)
+4. [RESPONSIBLE DISCLOSURE CHANNELS](#responsible-disclosure-channels)
    1. [Wep DApp](#web-dapp)
    2. [Messengers ](#messengers)  
-4. [GITHUB APP](#github-app)
-5. [INCENTIVES AND REWARDS](#incentives-and-rewards)
-6. [LAYER 2](#layer-2)
-7. [WALL OF FAME BOARDS](#wall-of-fame-boards)
+5. [GITHUB APP](#github-app)
+6. [INCENTIVES AND REWARDS](#incentives-and-rewards)
+7. [LAYER 2](#layer-2)
 8. [RUNTIME ENVIRONMENT (HOSTING)](#runtime-environment-hosting)
    1. [Bandwidth estimations](#bandwidth-estimations)
 9. [CROSS-DAO INTEROPERABILITY](#cross-dao-interoperability)
@@ -48,6 +48,11 @@ We assume a close association of a crypto-wallet and its user, thus, equate the 
 <!--  Loopring: Metamask, Wallet connect -->
 <!-- Loopring: https://docs.loopring.io/en/basics/key_mgmt.html -->
 
+## WALL OF FAME BOARDS
+
+The Famed boards allow security efforts by an organization, teams and individual contributors to be visualized, publicly recognized and incentivized as a CVE based score. The board aggregates findings together with vulnerability data aggregated external sources (vuluntary reports, bug bounty programs and audits). 
+The boards compresses incentives, roles and reward heuristics to increase measurability, visibility and abstract complexity of security work. Some notions and definitions are given in this doc, but all metrics are elidgible to organizational preferences and change.
+The functional scope of the famed board applications is defined in the corresponding [scoping document](scoping_document.md). The boards are developed for desktop and mobile browsers. 
 
 ## RESPONSIBLE DISCLOSURE CHANNELS
 
@@ -92,12 +97,6 @@ Here, the ZK-Rollup build by ZkSync offers an EVM-compatible solution that allow
 <!--  zksync -->
 <!--  optimism -->
 
-
-## WALL OF FAME BOARDS
-
-The Famed boards allow security efforts by an organization, teams and individual contributors to be visualized, publicly recognized and incentivized as a CVE based score. The board aggregates findings together with vulnerability data aggregated external sources (vuluntary reports, bug bounty programs and audits). 
-The boards compresses incentives, roles and reward heuristics to increase measurability, visibility and abstract complexity of security work. Some notions and definitions are given in this doc, but all metrics are elidgible to organizational preferences and change.
-The functional scope of the famed board applications is defined in the corresponding [scoping document](scoping_document.md). The boards are developed for desktop and mobile browsers. 
 
 ### Vulnerability Buckets
 
