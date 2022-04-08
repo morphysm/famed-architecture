@@ -60,7 +60,7 @@ Sourcing and onboarding of security champions
 ## VI: System Scaling: Automate All the Things (9/22 - 02/23)
 1. Multichannel conversational triage automator (9/22 - 02/23)
 
-	- Ships as part of the GitHub App which organizations can selfhost on their exisiting channels for decentralized Report submissions
+	- Ships as part of the GitHub App which organizations can selfhost on their exisiting channels for decentralized report submissions
 
 2. Chatbot plugin for different messengers with local; self contained, containerized AI 
 Messenger in scope are: 
