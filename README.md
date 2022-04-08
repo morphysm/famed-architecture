@@ -14,10 +14,10 @@ Please note that further technical details on the individual components, the sec
 1. [INTRODUCTION](#introduction)
 2. [ACCOUNTS](#accounts)
 3. [WALL OF FAME BOARDS](#wall-of-fame-boards)
-4. [RESPONSIBLE DISCLOSURE CHANNELS](#responsible-disclosure-channels)
+4. [GITHUB APP](#github-app)
+5. [RESPONSIBLE DISCLOSURE CHANNELS](#responsible-disclosure-channels)
    1. [Wep DApp](#web-dapp)
    2. [Messengers ](#messengers)  
-5. [GITHUB APP](#github-app)
 6. [INCENTIVES AND REWARDS](#incentives-and-rewards)
 7. [LAYER 2](#layer-2)
 8. [RUNTIME ENVIRONMENT (HOSTING)](#runtime-environment-hosting)
@@ -56,11 +56,13 @@ The Famed boards allow security efforts by an organization, teams and individual
 The boards compress incentives, roles and reward heuristics to increase measurability, visibility and abstract complexity of security work. Some notions and definitions are given in this doc, but all metrics are elidgible to organizational preferences and change.
 The functional scope of the famed board applications is defined in the corresponding [scoping document](scoping_document.md). The boards are developed for desktop and mobile browsers. 
 
-### Wall of Fame Data Flow
-![Famed Flow](https://user-images.githubusercontent.com/11260050/162227373-3010ac5d-3f13-4d38-8e86-471d800404fd.png)
+## GITHUB APP
 
 ### Famed GitHub App
 If the GitHub App is installed in a Repo with Issue/Pull Request and Webhook permissions, GitHub sends an Event to the Famed BFF using the registered Webhook each time a Issue is changes. The Famed BFF filters the events for changes which are relevant. If a relevant change occures a new Comment is posted or a current comment is updated via the GitHub API.
+
+### Wall of Fame Data Flow
+![Famed Flow](https://user-images.githubusercontent.com/11260050/162227373-3010ac5d-3f13-4d38-8e86-471d800404fd.png)
 
 ### Wall of Fame BFF and Frontend
 The Walls of Fame frontend requests the list of contributors from the Famed BFF (Backend for Frontend), when a user vistis the Walls of Fame website. The Fame BFF then calls the Github API and requests all Github Issues of the repo. The Github Issues are filtered by qualifying properties, closed and labeled “Fame”. For each qualifying issue the Github Issue Events are requested from the Github API. Based on the events and the issue information, a list of contributors is generated and populated with information about performance and rewards. The list is then returned to the Fame Board frontend and displayed to the user.
@@ -71,8 +73,6 @@ The Walls of Fame frontend requests the list of contributors from the Famed BFF 
 ### Web DApp
 
 ### Messengers 
-
-## GITHUB APP
 
 | ![Figure 7: Actors in the system, including external parties ](images/protocol_architecture/actors_in_the_system.svg "Figure 7: Actors in the system, including external parties ") |
 |:--:|
