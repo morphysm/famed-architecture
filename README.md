@@ -86,16 +86,21 @@ The Walls of Fame frontend requests the list of contributors from the Famed BFF 
 Bug bounties paid out by organizations using the Famed boards can be directly processed via Famed. Here, we especially care about a secure and privacy-preserving channel. (See Layer 2)
 
 
-### Incentives
-Bug bounty programs set incentives for hackers to hunt and disclose bugs by rewarding them with compensation. Leaderboards add a reward of recognition.
+### Incentive Model
+Bug bounty programs set incentives for security researchers to hunt and disclose bugs by rewarding them with compensation. Leaderboards add a reward of recognition.
 Organizations that use a Famed board can integrate several further incentive schemes to promote security work beyond the red team. We are currently thinking of the following extensions:
 
-- Promote referral among red teamers
-- Reward security developers for fast and clean fixes of reported vulnerabilities
-- Reward security liasons for guaranting fast and clean fixes of reported vulnerabilities
-- Increase cooperation within teams via peer pressure mechanisms
+1. Vouch and invite: promote mentorship and referral among security researchers 
+   Rewards earned with famed can be staked to invite new members to the famed DAO. If reffered members earn famed rewards, the referraing member gets a share of the rewards. Once economically well calibrated, this incentive promotes and rewards mentorship of high performing security researchers to help tackle the urgent talent shortage in (web3)-security. 
+   
+2. Famed Governance and Services 
+   With current web3 platforms, legal risks and concerns of security researchers often remain unadressed. While tech and legal interdependencies grow rapidly, often not even basic safe harbor agreements protecting the researchers are in place when security testing engagements are taking place. The famed DAO offers security researchers a safe space to conduct security research and protects its members from potential legal repercussions. 
+   
+4. Rewards for security engineers/blue teamers for fast and clean fixes of reported vulnerabilities
+5. Rewards for security liasons for well managing bug bounty programs
+6. Increase cooperation within teams via peer pressure mechanisms
 
-Each incentive scheme is designed with the overall goal to minimize time to mitigation. For examples, metrics include time to disclosure, number of backtests or performance of co-workers. Rewards can be in the form of monetary compensation or in the form of NFTs batches.
+Rewards can be in the form of tokenized compensation or in the form of NFTs batches.
 
 
 ## LAYER 2 
