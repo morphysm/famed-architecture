@@ -24,7 +24,7 @@ Please note that further technical details on the individual components, the sec
    3. **GitHub App Memory Encryption** + ASLR (05/22 - 09/22) 
    4. **Security Audit** + codebase hardening (08/22 - 09/22) 
 
-### B) Web dApp (5/22 - 9/22)
+### B) Web dApp (5/22 - tbd)
 1. **Login with WalletConnect/Metamask** + GitHub to lower spam (5/22 - 8/22)
 	1. Config option to require tokens in user's wallet to submit bugs 
 2. **Conversational Vulnerability Submission Form**: fat client implementation (5/22 - 8/22)
@@ -32,16 +32,12 @@ Please note that further technical details on the individual components, the sec
 		1. Data at rest: databaseless, static, fat client dApp 
 		2. Data in transit: TLS + e2e encrypted, organization's public key is retrieved from ENS 
 		3. Data in use, memory encryption, see A.3
-3.  **Decentralized, Privacy Preserving Bounties - Zero Knowledge Commits/Claims** (5/22 - 8/22)
 
-- Many users would prefer not to disclose their public keys. Claiming tokens in this manner mixes them with all other contributors, protecting their anonymity: 
-  
-  1. Deploy an interface where contributors can generate a message ('commitment') 
-  2. Contributors can send commitments over a public channel (their address remains private) 
-  3. Commitments can be submitted to a contract storing a merkle tree of all commitments. 
-  4. Later contributors can claim their portion NFTs/bounties by providing a zero-knowledge proof that they belong in the Merkle tree. 
+3. dAPP Customization interface for GitHub App
 
-4. **NFT Badges/Rewards**: Customization interface for GitHub App  (7/22 - 9/22)
+### C) Tokenization/Reward Layer2  dApp (5/22 - 12/22)
+1.  **Decentralized, Privacy Preserving Bounties in zero knowledge**
+2.  **NFT Badges/Rewards**
  
 ## II: Famed Protocol Handbook (7/22 - 9/22)
 - Documentation of the Famed social protocol
@@ -73,5 +69,4 @@ Messenger in scope are:
 
 ## VII: System Scaling: 
 
-1. Famed reward layer2  dApp in 2023
-2. Famed as a Status Community 2023
+1. Famed as a Status Community 2023
