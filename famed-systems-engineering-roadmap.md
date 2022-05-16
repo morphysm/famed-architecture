@@ -8,21 +8,21 @@ The diagrams  reflect the current state but may also change at a later point in 
 Please note that further technical details on the individual components, the security concept, and the data protection concept are provided at a later date.
 
 
-## 0: Systems Analysis, Requirements Definition and Design (03/21 - 09/21)
+## 0: Systems Analysis, Requirements Definition and Design (03/21 - 09/21) 
 ## I: System Development (09/21 - 09/22)
 
 ### A) dApp Protototype Components (09/21 - 06/22)
 
-   1. **“Walls of Fame”** Web App + GitHub App (09/21 - 03/22) 
+   1. **“Walls of Fame”** Web App + GitHub App (09/21 - 03/22) ✅
     	1. GitHub App - Developer driven triage tool (02/22 - 03/22)
     		- GitHub App: https://github.com/apps/get-famed
 		- Backend: https://github.com/morphysm/famed-github-backend 
     		- Data at rest: databaseless, static, fat client dApp 
     	2. Example Frontend - "Wall of Fame":  https://www.famed.morphysm.com/teams/morphysm/famed-script-test-dev (01/22 - 03/22) 
-   2. **Issue Migration Script** (from Hackerone, Bugcrowd, etc.) (03/22)
+   2. **Issue Migration Script** (from Hackerone, Bugcrowd, etc.) (03/22) ✅
 	1. CSV to GitHub Famed issues: https://github.com/morphysm/famed-import-script
-   3. **GitHub App Memory Encryption** + ASLR (05/22 - 09/22) 
-   4. **Security Audit** + codebase hardening (08/22 - 09/22) 
+   3. **GitHub App Memory Encryption** + ASLR (05/22 - 09/22) ✅
+   4. **Security Audit** + codebase hardening (08/22 - 09/22) ✅
 
 ### B) Web dApp (5/22 - tbd)
 1. **Login with WalletConnect/Metamask** + GitHub to lower spam (5/22 - 8/22)
