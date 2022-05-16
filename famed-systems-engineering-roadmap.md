@@ -40,9 +40,9 @@ Please note that further technical details on the individual components, the sec
 2.  **NFT Badges/Rewards**
  
 ## II: Famed Protocol Handbook (7/22 - 9/22)
-- Documentation of the Famed social protocol
-- Reward specification 
-- Step by step guide for the respective roles  
+### A) Documentation of the Famed social protocol
+### B) Inventives and Reward specification 
+### C) Step by step guide for the respective roles  
 
 ## III: Continuous System Integration and Testing, System Acceptance, Installation, Deployment (06/22 - 12/22)
 Sourcing and onboarding of security champions 
