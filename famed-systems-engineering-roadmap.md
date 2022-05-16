@@ -39,7 +39,7 @@ Please note that further technical details on the individual components, the sec
 1.  **Decentralized, Privacy Preserving Bounties in zero knowledge**
 2.  **NFT Badges/Rewards**
  
-## II: Famed Protocol Handbook (7/22 - 9/22)
+## II: Famed Protocol Specification, Documentation and Handbook (7/22 - 9/22)
 ### A) Documentation of the Famed social protocol
 ### B) Inventives and Reward specification 
 ### C) Step by step guide for the respective roles  
