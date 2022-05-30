@@ -54,7 +54,7 @@ Sourcing and onboarding of security champions
 
 ## V: System Evaluation (01/22 - 03/23)
 
-## VI: System Scaling: Automate all the Things (9/22 - 02/23)
+## VI: System Scaling: Automate All the Things (9/22 - 02/23)
 1. Multichannel conversational triage automator (9/22 - 02/23)
 
 	- Ships as part of the GitHub App which organizations can selfhost on their exisiting channels for decentralized report submissions
@@ -67,6 +67,6 @@ Messenger in scope are:
 	- Discord
 	- Slack 
 
-## VII: System Scaling: 
+## VII: System Scaling
 
 1. Famed as a Status Community 2023
