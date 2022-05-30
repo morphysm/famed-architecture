@@ -52,7 +52,7 @@ Sourcing and onboarding of security champions
 
 ## IV: System Improvements & Maintenance (01/22 - 02/23)
 
-## V: System Evaluation: (01/22 - 03/23)
+## V: System Evaluation (01/22 - 03/23)
 
 ## VI: System Scaling: Automate All the Things (9/22 - 02/23)
 1. Multichannel conversational triage automator (9/22 - 02/23)
