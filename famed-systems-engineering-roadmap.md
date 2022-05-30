@@ -41,7 +41,7 @@ Please note that further technical details on the individual components, the sec
  
 ## II: Famed Protocol Specification, Documentation and Handbook (7/22 - 9/22)
 ### A) Documentation of the Famed Social Protocol
-### B) Insentives and Reward specification 
+### B) Incentives and Reward specification 
 ### C) Step by Step Guide for the Respective Roles  
 
 ## III: Continuous System Integration and Testing, System Acceptance, Installation, Deployment (06/22 - 12/22)
