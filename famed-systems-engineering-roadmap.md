@@ -3,7 +3,7 @@
 
 This document is intended for a non-technical audience. It represents the most **recent state of the development roadmap and is still subject to change** as external dependencies are also still changing.
 
-The diagrams  reflect the current state but may also change at a later point in time. 
+The diagrams reflect the current state but may also change at a later point in time. 
 
 Please note that further technical details on the individual components, the security concept, and the data protection concept are provided at a later date.
 
@@ -33,11 +33,12 @@ Please note that further technical details on the individual components, the sec
 		2. Data in transit: TLS + e2e encrypted, organization's public key is retrieved from ENS 
 		3. Data in use, memory encryption, see A.3
 
-3. dAPP Customization interface for GitHub App
+3. **dAPP Customization interface for GitHub App**
 
 ### C) Tokenization/Reward Layer2  dApp (5/22 - 12/22)
-1.  **Decentralized, Privacy Preserving Bounties in zero knowledge**
-2.  **NFT Badges/Rewards**
+1.  **NFT Badges/Rewards** 
+	1. ZK Airdrop on Optimism to reward past contributors and onboard community
+2.  **Decentralized, Privacy Preserving Bounties in zero knowledge**
  
 ## II: Famed Protocol Specification, Documentation and Handbook (7/22 - 9/22)
 ### A) Documentation of the Famed Social Protocol
