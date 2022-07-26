@@ -105,11 +105,12 @@ Rewards can be in the form of tokenized compensation or in the form of NFTs batc
 
 ## LAYER 2 
 
-Famed pays out bug bounties and other rewards through ZK-Rollups (ZK-Snarks such as Loopring, zkSync and ZK-Starks such as DeversiFi). This ensures
+Famed pays out bug bounties and other rewards through ZK-Rollups. This ensures
 - high privacy through zero-knowledge
 - low fees and fast payouts via the scalability advantage of rollups
 
-Here, the ZK-Rollup build by ZkSync offers an EVM-compatible solution that allows high flexibility around the use of other tokens as well as the future integrations of a Famed token. 
+Until this technology matures, we opt for Optimism since it is EVM-compatible. This allows us to migrate to a ZK-EVM-compatible rollup at a later stage.
+An EVM-compatible solution is in general prefered as it allows high flexibility around the use of other tokens as well as the future integrations of a Famed token. 
 
 <!--  Loopring -->
 <!--  zksync -->
